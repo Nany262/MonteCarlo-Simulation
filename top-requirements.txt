@@ -1,2 +1,3 @@
+geopy
 jupyter
 numpy
