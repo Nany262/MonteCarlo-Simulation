@@ -23,3 +23,7 @@ pip install -r top-requirements.txt
 ```
 
 Initialize jupyter notebook
+
+```python
+jupyter notebook
+```
