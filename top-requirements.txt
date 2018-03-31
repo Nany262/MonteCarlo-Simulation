@@ -1,3 +1,5 @@
 googlemaps
 jupyter
 numpy
+pandas
+
