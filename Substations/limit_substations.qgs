@@ -3,10 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="nodos_csv20180422173218111" name="nodos_csv">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="nodos_lat_long20180422172855323" name="nodos_lat_long">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="nodes20180422192656509" name="nodes">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="PoligonosSubEstacionesPereira20180422172257950" name="PoligonosSubEstacionesPereira">
@@ -20,10 +17,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-75.79503243493749665</xmin>
-      <ymin>4.74901745670764175</ymin>
-      <xmax>-75.60845348369360863</xmax>
-      <ymax>4.84954643539980612</ymax>
+      <xmin>-75.79948447628865438</xmin>
+      <ymin>4.75107398342314013</ymin>
+      <xmax>-75.6129055250446811</xmax>
+      <ymax>4.85160296211530806</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -41,8 +38,10 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodes20180422192656509"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodos20180422172735739"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodos_lat_long20180422172855323"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestaciones20180422192615955"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="PoligonosSubEstacionesPereira20180422172257950"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20180422172526764"/>
     </layer_coordinate_transform_info>
@@ -51,19 +50,13 @@
     <custom-order enabled="0">
       <item>PoligonosSubEstacionesPereira20180422172257950</item>
       <item>OpenLayers_plugin_layer20180422172526764</item>
-      <item>nodos_lat_long20180422172855323</item>
-      <item>nodos_csv20180422173218111</item>
+      <item>nodes20180422192656509</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nodos_csv" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nodes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="nodos_csv20180422173218111" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nodos_lat_long" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="nodos_lat_long20180422172855323" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="nodes20180422192656509" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PoligonosSubEstacionesPereira" showFeatureCount="0">
@@ -86,7 +79,7 @@
         <ymax>20037508.33999999985098839</ymax>
       </extent>
       <id>OpenLayers_plugin_layer20180422172526764</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -115,7 +108,7 @@
         <ymax>729953.66121747461147606</ymax>
       </extent>
       <id>PoligonosSubEstacionesPereira20180422172257950</id>
-      <datasource>/home/dani/Downloads/MatrizOrigenDestinoSubEstacionesPereira/MatrizOrigenDestinoSubEstacionesPereira/ShapeFilesAzimuthal/PoligonosSubEstacionesPereira.shp</datasource>
+      <datasource>../../../Downloads/MatrizOrigenDestinoSubEstacionesPereira/MatrizOrigenDestinoSubEstacionesPereira/ShapeFilesAzimuthal/PoligonosSubEstacionesPereira.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -199,76 +192,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>nodos_csv20180422173218111</id>
-      <datasource>/home/dani/Desktop/MonteCarlo-Simulation/Subestaciones/nodos_csv.csv</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>nodos_csv</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="System">ogr</provider>
-      <previewExpression>COALESCE("X", '&lt;NULL>')||', '||COALESCE("Y", '&lt;NULL>')||', '||COALESCE("id", '&lt;NULL>')||', '||COALESCE("Des", '&lt;NULL>')||', '||COALESCE("AreaSub", '&lt;NULL>')</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="X">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Y">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Des">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AreaSub">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -285,12 +216,12 @@
         <xmax>-8396874.2072259932756424</xmax>
         <ymax>729953.66121747461147606</ymax>
       </extent>
-      <id>nodos_lat_long20180422172855323</id>
-      <datasource>/home/dani/Desktop/MonteCarlo-Simulation/Subestaciones/nodos_lat_long.shp</datasource>
+      <id>nodes20180422192656509</id>
+      <datasource>./nodes.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>nodos_lat_long</layername>
+      <layername>nodes</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=aeqd +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
@@ -327,7 +258,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="69,86,181,255"/>
+              <prop k="color" v="168,30,99,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -395,11 +326,11 @@
     </maplayer>
   </projectlayers>
   <properties>
-    <WMSContactPerson type="QString"></WMSContactPerson>
     <Variables>
       <variableNames type="QStringList"/>
       <variableValues type="QStringList"/>
     </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString"></WMSContactOrganization>
