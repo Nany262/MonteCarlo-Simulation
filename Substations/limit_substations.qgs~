@@ -3,6 +3,39 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Puntos">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="to_v520180501205615925" name="to v5">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="From_V3_to_V520180501205605366" name="From V3 to V5">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="to_v420180501205546077" name="to v4">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="From_V3_to_V420180501205528534" name="From V3 to V4">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="to_v320180501205510392" name="to v3">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="From_V3_to_V320180501205501024" name="From V3 to V3">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="to_v220180501205438211" name="to v2">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="From_V3_to_V220180501205426682" name="From V3 to V2">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="to_v120180501205348822" name="to v1">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="From_V3_to_V120180501205336471" name="From V3 to V1">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ventorrillo20180429200028041" name="Ventorrillo">
       <customproperties/>
     </layer-tree-layer>
@@ -29,10 +62,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-75.77253751671049997</xmin>
-      <ymin>4.74876471836919922</ymin>
-      <xmax>-75.60900533704661086</xmax>
-      <ymax>4.83068312133796685</ymax>
+      <xmin>-75.84869788009669378</xmin>
+      <ymin>4.67578645792015735</ymin>
+      <xmax>-75.52163352076891556</xmax>
+      <ymax>4.83962326385769259</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -50,48 +83,114 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_dosquebradas20180429183312071"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_1__L6_920180501153548325"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20180422172526764"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_naranjito20180428182102060"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ventorrillo20180429200028041"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_centro20180429151143711"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_5__L6_920180501154951735"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_centro20180428173949047"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_cuba20180428174007865"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_dosquebradas20180428174040111"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428183201274"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="PoligonosSubEstacionesPereira20180422172257950"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Cuba20180428182931920"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V4_4__L6_920180501154912694"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428182613925"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428183220243"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428182758312"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Centro20180429153837587"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428182838647"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="subestacion_cuba20180428183421048"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodos20180422172735739"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V1_1__L6_920180501153629843"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cuba20180429155404154"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Centro20180429151214744"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V2_1__L6_920180501163942587"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_ventorrillo20180429195832933"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_cuba20180429155318544"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_4__L6_920180501154836045"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodos_lat_long20180422172855323"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodes20180422192656509"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v520180501174352626"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v1_320180501190829283"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v3_520180501173245246"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v2_520180501202714598"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v220180501202531007"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V2_2__L6_920180501154245741"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V2_1__L6_920180501163923642"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428182758312"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V3_3__L6_920180501161431148"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestaciones20180422192615955"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V5_5__L6_920180501155020664"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_2__L6_920180501154127443"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_3__L6_920180501154656748"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_ventorrillo20180428182307754"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Naranjito20180429194357679"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_naranjito20180429194304418"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v520180501172524635"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v5_220180501175714351"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v3_220180501172924369"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v4_320180501174214300"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v520180501205615925"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ventorrillo20180429200028041"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V1_1__L6_920180501153629843"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v4_120180501174046738"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v1_520180501190935202"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428183220243"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v3_120180501172849399"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v420180501202651397"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="subestacion_cuba20180428183421048"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov420180501175957874"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_1__L6_920180501153548325"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_5__L6_920180501154951735"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v320180501202616818"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov320180501175917292"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov220180501175646544"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v2_520180501172513423"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v1_120180501190613973"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov520180501180301043"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V3_to_V220180501205426682"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v420180501205546077"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V4_4__L6_920180501154912694"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v5_420180501175938156"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v4_420180501174254276"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_dosquebradas20180428174040111"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V3_to_V520180501205605366"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov520180501180032761"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dosquebradas20180429183600663"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v3_420180501173133285"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v120180501205348822"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_4__L6_920180501154836045"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v1_220180501190739506"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v220180501205438211"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v5_120180501175623542"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov420180501190911695"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Centro20180429153837587"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v520180501202729202"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428183201274"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v4_220180501174130375"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v2_220180501202516937"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v320180501173113344"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Centro20180429151214744"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="PoligonosSubEstacionesPereira20180422172257950"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_naranjito20180429194304418"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v5_320180501175851180"/>
       <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V1_3__L6_920180501154730650"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v120180501174059102"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v220180501172935732"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428182613925"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_3__L6_920180501154656748"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_naranjito20180428182102060"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V3_to_V120180501205336471"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestaciones20180422192615955"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v320180501205510392"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov220180501175826864"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v3_320180501173102938"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov220180501190753923"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v120180501202445224"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V1_2__L6_920180501154127443"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v4_520180501174331327"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v2_320180501202552354"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_dosquebradas20180429183312071"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20180422172526764"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v5_320180501175903267"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cuba20180429155404154"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V2_1__L6_920180501163942587"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v120180501172901916"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Naranjito20180429194357679"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_ventorrillo20180428182307754"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov420180501175946122"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Cuba20180428182931920"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov320180501190841359"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_centro20180428173949047"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodes20180422192656509"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v420180501173143426"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="To_V5_5__L6_920180501155020664"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov520180501190945737"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="tov120180501190621502"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v2_120180501202426755"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v520180501173254408"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v320180501174231394"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V2_1__L6_920180501163923642"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V3_to_V320180501205501024"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_ventorrillo20180429195832933"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v520180501174339641"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:54032" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodos_lat_long20180422172855323"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v420180501174303903"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subestacion_Centro20180428182838647"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v1_420180501190900532"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_cuba20180428174007865"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="IGNF:WGS72G" srcDatumTransform="-1" destDatumTransform="-1" layerid="nodos20180422172735739"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="limit_centro20180429151143711"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v220180501174141771"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="From_V3_to_V420180501205528534"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="to_v420180501173158280"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS72G" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="from_v2_420180501202641315"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -103,9 +202,71 @@
       <item>Dosquebradas20180429183600663</item>
       <item>Naranjito20180429194357679</item>
       <item>Ventorrillo20180429200028041</item>
+      <item>From_V3_to_V120180501205336471</item>
+      <item>to_v120180501205348822</item>
+      <item>From_V3_to_V220180501205426682</item>
+      <item>to_v220180501205438211</item>
+      <item>From_V3_to_V320180501205501024</item>
+      <item>to_v320180501205510392</item>
+      <item>From_V3_to_V420180501205528534</item>
+      <item>to_v420180501205546077</item>
+      <item>From_V3_to_V520180501205605366</item>
+      <item>to_v520180501205615925</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendgroup open="true" checked="Qt::Checked" name="Puntos">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="to v5" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="to_v520180501205615925" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="From V3 to V5" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="From_V3_to_V520180501205605366" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="to v4" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="to_v420180501205546077" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="From V3 to V4" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="From_V3_to_V420180501205528534" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="to v3" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="to_v320180501205510392" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="From V3 to V3" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="From_V3_to_V320180501205501024" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="to v2" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="to_v220180501205438211" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="From V3 to V2" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="From_V3_to_V220180501205426682" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="to v1" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="to_v120180501205348822" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="From V3 to V1" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="From_V3_to_V120180501205336471" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ventorrillo" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Ventorrillo20180429200028041" visible="1"/>
@@ -506,6 +667,551 @@
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.69831566570564974</xmin>
+        <ymin>4.78536828183182195</ymin>
+        <xmax>-75.6615107137679388</xmax>
+        <ymax>4.81547304714200131</ymax>
+      </extent>
+      <id>From_V3_to_V120180501205336471</id>
+      <datasource>../../PARA BORRAR/From V3 to V1.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>From V3 to V1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="154,199,143,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.69923887577729715</xmin>
+        <ymin>4.78493544036101515</ymin>
+        <xmax>-75.66237258443446478</xmax>
+        <ymax>4.81556335531091495</ymax>
+      </extent>
+      <id>From_V3_to_V220180501205426682</id>
+      <datasource>../../PARA BORRAR/From V3 to V2.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>From V3 to V2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="210,11,220,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.69944103868215279</xmin>
+        <ymin>4.78888985151908475</ymin>
+        <xmax>-75.66424241505310988</xmax>
+        <ymax>4.80929954440884533</ymax>
+      </extent>
+      <id>From_V3_to_V320180501205501024</id>
+      <datasource>../../PARA BORRAR/From V3 to V3.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>From V3 to V3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="104,213,215,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.69980506313638102</xmin>
+        <ymin>4.78548011747383306</ymin>
+        <xmax>-75.66102901527898439</xmax>
+        <ymax>4.81569115626424349</ymax>
+      </extent>
+      <id>From_V3_to_V420180501205528534</id>
+      <datasource>../../PARA BORRAR/From V3 to V4.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>From V3 to V4</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="101,141,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.69462588382316426</xmin>
+        <ymin>4.79269753262397824</ymin>
+        <xmax>-75.67275391089593484</xmax>
+        <ymax>4.8084743171134896</ymax>
+      </extent>
+      <id>From_V3_to_V520180501205605366</id>
+      <datasource>../../PARA BORRAR/From V3 to V5.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>From V3 to V5</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="137,84,141,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-75.72642127792140343</xmin>
@@ -773,7 +1479,7 @@
         <ymax>4.81701624556290042</ymax>
       </extent>
       <id>Ventorrillo20180429200028041</id>
-      <datasource>./Ventorrillo /Ventorrillo.shp</datasource>
+      <datasource>./Ventorrillo/Ventorrillo.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -848,6 +1554,551 @@
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
       <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.71442650425868237</xmin>
+        <ymin>4.81013447069133804</ymin>
+        <xmax>-75.68620686499457406</xmax>
+        <ymax>4.82347037605670614</ymax>
+      </extent>
+      <id>to_v120180501205348822</id>
+      <datasource>../../PARA BORRAR/to v1.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>to v1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="95,142,64,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.74477517621350842</xmin>
+        <ymin>4.81167809426703919</ymin>
+        <xmax>-75.69718528732256857</xmax>
+        <ymax>4.83274431910786806</ymax>
+      </extent>
+      <id>to_v220180501205438211</id>
+      <datasource>../../PARA BORRAR/to v2.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>to v2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="194,66,130,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.69116568533512179</xmin>
+        <ymin>4.78574490378974904</ymin>
+        <xmax>-75.66225497358654195</xmax>
+        <ymax>4.81210332474988522</ymax>
+      </extent>
+      <id>to_v320180501205510392</id>
+      <datasource>../../PARA BORRAR/to v3.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>to v3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="69,84,197,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.77258939428138262</xmin>
+        <ymin>4.78792690187427361</ymin>
+        <xmax>-75.70077206440807061</xmax>
+        <ymax>4.82012698446354015</ymax>
+      </extent>
+      <id>to_v420180501205546077</id>
+      <datasource>../../PARA BORRAR/to v4.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>to v4</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="107,141,182,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Noto Sans"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-75.71575230598224948</xmin>
+        <ymin>4.74770872457768967</ymin>
+        <xmax>-75.67002406546565396</xmax>
+        <ymax>4.79420496204272961</ymax>
+      </extent>
+      <id>to_v520180501205615925</id>
+      <datasource>../../PARA BORRAR/to v5.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>to v5</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * SRC generado (+proj=longlat +ellps=WGS72 +towgs84=0,12,6,0,0,0,0 +no_defs)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS72</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="132,178,131,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Etiqueta"/>
