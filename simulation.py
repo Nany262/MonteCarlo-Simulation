@@ -100,16 +100,16 @@ def get_list_elevation_angle(list_origin, list_destination):
 # In[ ]:
 
 
-#File path where the points are located
-substations = ['Centro', 'Dosquebradas', 'Ventorrillo', 'Cuba', 'Naranjito']
+#File path where the points are located 'Naranjito'
+substations = ['Cuba']
 days = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']
 hours = ['6-9', '12-14', '18-20']
 
 for substation in substations:
     for day in days:
         for hour in hours:
-            print substation,day,hour, 'From V' + str(substations.index(substation)+1) + ' to V5_'+ hour+'.csv'
-            file_path = 'Substations/' + substation + '/Puntos Aleatorios/'+ day + ' '+ hour +'/From V' + str(substations.index(substation)+1) + ' to V5_'+ hour +'.csv'
+            print substation,day,hour, 'From V4 to V5_'+ hour+'.csv'
+            file_path = 'Substations/' + substation + '/Puntos Aleatorios/'+ day + ' '+ hour +'/From V4 to V5_'+ hour +'.csv'
             data = pd.read_csv(file_path, header=0)
             data_routes= pd.DataFrame()
             columns = ['X1','Y1','X2','Y2','Subpoints_origin','Subpoints_destiny','Distance','Duration','Elevation']
