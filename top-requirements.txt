@@ -2,4 +2,4 @@ googlemaps
 jupyter
 numpy
 pandas
-
+scipy
