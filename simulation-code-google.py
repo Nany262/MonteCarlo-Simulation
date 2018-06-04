@@ -105,43 +105,46 @@ substations = ['Centro', 'Dosquebradas', 'Ventorrillo', 'Cuba', 'Naranjito']
 days = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']
 hours = ['6-9', '12-14', '18-20']
 
+'''
 for substation in substations:
     for day in days:
         for hour in hours:
             for i in range (1,5):
-                print substation,day,hour, 'From V' + str(substations.index(substation)+1) + ' to V'+ str(i) +'_'+ hour+'.csv'
-                file_path = 'Substations/' + substation + '/Puntos Aleatorios/'+ day + ' '+ hour +'/From V' + str(substations.index(substation)+1) + ' to V'+ str(i) +'_'+ hour +'.csv'
-                data = pd.read_csv(file_path, header=0)
-                data_routes= pd.DataFrame()
-                columns = ['X1','Y1','X2','Y2','Subpoints_origin','Subpoints_destiny','Distance','Duration','Elevation']
-                try:
-                    for row in data.itertuples():
-                        route_data_list = directions_api([row[2],row[1]],[row[4],row[3]])
-                        elevation_data_list = get_list_elevation_angle(route_data_list[0],route_data_list[1])
-                        x1 = [None]*len(elevation_data_list)
-                        y1 = [None]*len(elevation_data_list)
-                        x2 = [None]*len(elevation_data_list)
-                        y2 = [None]*len(elevation_data_list)
-                
-                        x1[0] = row[2]
-                        y1[0] = row[1]
-                        x2[0] = row[4]
-                        y2[0] = row[3]
-                        data_temp = pd.DataFrame({
-                            'X1':x1,
-                            'Y1':y1,
-                            'X2':x2,
-                            'Y2':y2,
-                            'Subpoints_origin':route_data_list[0], 
-                            'Subpoints_destiny':route_data_list[1], 
-                            'Distance':route_data_list[2], 
-                            'Duration':route_data_list[3], 
-                            'Elevation':elevation_data_list
-                        })
-                        data_routes = pd.concat([data_routes, data_temp], ignore_index=True,keys = [[row[2],row[1]],[row[4],row[3]]])
-                    data_routes = data_routes[columns] # To order the columns in dataframe
-                    data_routes.to_csv(file_path, header=columns, index=False)
-                except:
-                    data_routes = data_routes[columns] # To order the columns in dataframe
-                    data_routes.to_csv('Substations/Centro/Puntos Aleatorios/Lunes 6-9/temp.csv', header=columns, index=False)
+print substation,day,hour, 'From V' + str(substations.index(substation)+1) + ' to V'+ str(i) +'_'+ hour+'.csv'
+'''
+
+file_path = 'Substations/Naranjito/Puntos Aleatorios/Lunes 6-9/From V5 to V1_6-9.csv'
+data = pd.read_csv(file_path, header=0)
+data_routes= pd.DataFrame()
+columns = ['X1','Y1','X2','Y2','Subpoints_origin','Subpoints_destiny','Distance','Duration','Elevation']
+try:
+    for row in data.itertuples():
+        route_data_list = directions_api([row[2],row[1]],[row[4],row[3]])
+        elevation_data_list = get_list_elevation_angle(route_data_list[0],route_data_list[1])
+        x1 = [None]*len(elevation_data_list)
+        y1 = [None]*len(elevation_data_list)
+        x2 = [None]*len(elevation_data_list)
+        y2 = [None]*len(elevation_data_list)
+
+        x1[0] = row[2]
+        y1[0] = row[1]
+        x2[0] = row[4]
+        y2[0] = row[3]
+        data_temp = pd.DataFrame({
+            'X1':x1,
+            'Y1':y1,
+            'X2':x2,
+            'Y2':y2,
+            'Subpoints_origin':route_data_list[0], 
+            'Subpoints_destiny':route_data_list[1], 
+            'Distance':route_data_list[2], 
+            'Duration':route_data_list[3], 
+            'Elevation':elevation_data_list
+        })
+        data_routes = pd.concat([data_routes, data_temp], ignore_index=True,keys = [[row[2],row[1]],[row[4],row[3]]])
+    data_routes = data_routes[columns] # To order the columns in dataframe
+    data_routes.to_csv(file_path, header=columns, index=False)
+except:
+    data_routes = data_routes[columns] # To order the columns in dataframe
+    data_routes.to_csv('Substations/Centro/Puntos Aleatorios/Lunes 6-9/temp.csv', header=columns, index=False)
 
