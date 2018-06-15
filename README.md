@@ -7,7 +7,7 @@ Monte Carlo simulation is a simple, flexible and scalable algorithm that aims at
 Create the virtual enviroment
 
 ```python
-virtualenv env -p /usr/bin/python3
+virtualenv env -p /usr/bin/python
 ```
 
 Activate the enviroment
